@@ -10,7 +10,7 @@ import Benefits from "@/components/home/Benefits";
 import CTA from "@/components/home/CTA";
 import Footer from "@/components/home/Footer";
 import Faqs from "@/components/home/Faqs";
-
+import SupportContact from "@/components/home/SupportContact";
 const sections = [
   { component: Features, name: 'features' },
   { component: HowItWorks, name: 'howItWorks' },
@@ -64,6 +64,10 @@ export default function Home() {
       
       <div ref={sectionRefs.faqs}>
         <Faqs />
+      </div>
+
+      <div ref={sectionRefs.supportContact}>
+        <SupportContact />
       </div>
       
       <Footer />
